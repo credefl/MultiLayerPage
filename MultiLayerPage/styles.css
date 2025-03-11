@@ -1,0 +1,30 @@
+#container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#FixedSideBar {
+  width: 150px;
+  height: 80%;
+  background-color: gray;
+  position: fixed;
+  right: 20px;
+  top: 50px;
+}
+#textBox {
+  width: 50%;
+}
+
+#gotoTopBtn {
+  height: 50px;
+  width: 300px;
+  background-color: gray;
+  position: fixed;
+  bottom: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-style: bold;
+  color: white;
+  opacity: 0;
+  transform: translateY(60px);
+}
